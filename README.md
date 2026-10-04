@@ -116,7 +116,7 @@ Selanjutnya tag `<input>` sebagai area input usernya, beberapa atribut yang ada 
 Contoh `label` dan `input` tipe text :
 
 ```html
-<label for="nama">Nama Mahasiswa : </label><br />
+<label for="nama">Nama Mahasiswa : </label><br/>
 <input
   type="text"
   id="nama"
@@ -142,7 +142,7 @@ Contoh `label` dan `input` tipe email :
 Contoh `label` dan `input` tipe password :
 
 ```html
-<label for="password">Password : </label><br />
+<label for="password">Password : </label><br/>
 <input
   type="password"
   id="password"
@@ -198,29 +198,22 @@ Jika checkbox ingin menjadi beberapa kolom, agar tidak seterusnya ke bawah, guna
   <tbody>
     <tr>
       <td>
-        <input type="checkbox" id="web" name="minat" value="web" /><label
-          for="web"
-          >Web Development</label
-        >
+        <input type="checkbox" id="web" name="minat" value="web" />
+        <label for="web">Web Development</label>
       </td>
       <td>
-        <input type="checkbox" id="game" name="minat" value="game" /><label
-          for="game"
-          >Game Development</label
-        >
+        <input type="checkbox" id="game" name="minat" value="game" />
+        <label for="game">Game Development</label>
       </td>
     </tr>
     <tr>
       <td>
-        <input type="checkbox" id="data" name="minat" value="data" /><label
-          for="data"
-          >Data Science</label
-        >
+        <input type="checkbox" id="data" name="minat" value="data" />
+        <label for="data">Data Science</label>
       </td>
       <td>
-        <input type="checkbox" id="ai" name="minat" value="ai" /><label for="ai"
-          >Artificial Intelligence</label
-        >
+        <input type="checkbox" id="ai" name="minat" value="ai" />
+        <label for="ai">Artificial Intelligence</label>
       </td>
     </tr>
   </tbody>
