@@ -1,4 +1,4 @@
-# Laporan Praktikum 1 - Pemrograman Web
+# Laporan Praktikum 2 - Pemrograman Web
 
 **Nama:** Oan Najmi Zertho  
 **NIM/Kelas:** 321510027 / I.25.3A  
