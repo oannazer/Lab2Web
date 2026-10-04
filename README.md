@@ -231,7 +231,7 @@ Atribut value dalam input type submit merupakan kata yang akan ditampilkan pada 
 
 Hasil akhir form akan terlihat seperti berikut :
 
-![Screenshot screenshot-5](assets/screenshot-5.png)
+![Screenshot screenshot-5](screenshots/screenshot-5.png)
 
 ### 5. Menambahkan elemen footer
 
@@ -243,4 +243,4 @@ Footer biasa ditempatkan di bagian terbawah dari suatu halaman HTML, biasanya be
 </footer>
 ```
 
-![Screenshot screenshot-6](assets/screenshot-6.png)
+![Screenshot screenshot-6](screenshots/screenshot-6.png)
