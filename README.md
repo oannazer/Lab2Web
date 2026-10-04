@@ -44,7 +44,7 @@ Buat elemen semantik navigasi untuk berpindah antar halaman dengan tag `<nav>` d
   <a href="#biodata">Biodata</a>
   <a href="#form">Form</a>
 </nav>
-<hr />
+<hr/>
 ```
 
 ![Screenshot screenshot-2](screenshots/screenshot-2.png)
@@ -123,20 +123,20 @@ Contoh `label` dan `input` tipe text :
   name="nama"
   placeholder="Input nama lengkap.."
   required
-/><br /><br />
+/><br/><br/>
 ```
 
 Contoh `label` dan `input` tipe email :
 
 ```html
-<label for="email">Email : </label><br />
+<label for="email">Email : </label><br/>
 <input
   type="email"
   id="email"
   name="email"
   placeholder="example@gmail.com"
   required
-/><br /><br />
+/><br/><br/>
 ```
 
 Contoh `label` dan `input` tipe password :
@@ -149,15 +149,15 @@ Contoh `label` dan `input` tipe password :
   name="password"
   placeholder="Input password.."
   required
-/><br /><br />
-<label for="konfirmasi_password">Konfirmasi Password : </label><br />
+/><br/><br/>
+<label for="konfirmasi_password">Konfirmasi Password : </label><br/>
 <input
   type="password"
   id="konfirmasi_password"
   name="konfirmasi_password"
   placeholder="Ulangi password.."
   required
-/><br /><br />
+/><br/><br/>
 ```
 
 Selain input tipe ketik, atau inputan dengan keyboard, ada juga input bertipe pilihan seperti `radio`, `select`, dan `checkbox`.
@@ -165,23 +165,23 @@ Selain input tipe ketik, atau inputan dengan keyboard, ada juga input bertipe pi
 Contoh input bertipe `radio` yang memastikan user memilih salah satu dari beberapa pilihan :
 
 ```html
-<label for="gender">Jenis Kelamin : </label><br />
+<label for="gender">Jenis Kelamin : </label><br/>
 <input type="radio" id="laki-laki" name="gender" value="laki-laki" required />
 <label for="laki-laki">Laki-laki</label>
 <input type="radio" id="perempuan" name="gender" value="perempuan" required />
-<label for="perempuan">Perempuan</label><br /><br />
+<label for="perempuan">Perempuan</label><br/><br/>
 ```
 
 Contoh input user berupa pilihan dropdown dengan elemen `<select>` dan `<option>` :
 
 ```html
-<label for="prodi">Program Studi : </label><br />
+<label for="prodi">Program Studi : </label><br/>
 <select id="prodi" name="prodi" required>
   <option value="">--Pilih Program Studi--</option>
   <option value="TIK">Teknik Informatika</option>
   <option value="SI">Sistem Informasi</option>
-  <option value="TIN">Teknik Industri</option></select
-><br /><br />
+  <option value="TIN">Teknik Industri</option>
+</select><br/><br/>
 ```
 
 Contoh input user berupa beberapa pilihan yaitu `checkbox`.
@@ -225,7 +225,7 @@ Jika checkbox ingin menjadi beberapa kolom, agar tidak seterusnya ke bawah, guna
     </tr>
   </tbody>
 </table>
-<br /><br />
+<br/><br/>
 ```
 
 Terakhir input tipe tombol yang memiliki 2 jenis, yaitu `<button>` dan `<input>` dengan tipe `submit`, tombol yang disarankan untuk mengirim data dari form biasanya tag `<input type="submit">`.
@@ -245,13 +245,9 @@ Hasil akhir form akan terlihat seperti berikut :
 Footer biasa ditempatkan di bagian terbawah dari suatu halaman HTML, biasanya berfungsi sebagai kontak, media sosial, copyright, dan ucapan terimakasih terhadap orang atau grup yang membantu development.
 
 ```html
-<h2>Data Diri</h2>
-<p><strong>Nama:</strong> Oan Najmi Zertho</p>
-<p><strong>NIM:</strong> 312510027</p>
-<p><strong>Program Studi:</strong> Teknik Informatika</p>
-<hr />
+<footer>
+  <p>&copy; 2026 Biodata Mahasiswa - Oan Najmi Zertho. All rights reserved.</p>
+</footer>
 ```
-
-Elemen `<hr>` berfungsi untuk membuat garis horizontal sebagai pembatas antar konten.
 
 ![Screenshot screenshot-6](assets/screenshot-6.png)
